@@ -40,3 +40,4 @@ pip install -r requirements.txt
 python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 API Documentation and Swagger UI will be available at [http://localhost:8000/docs](http://localhost:8000/docs).
+
