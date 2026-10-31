@@ -25,9 +25,9 @@ app.add_middleware(
 # User's verified Gnani AI API key
 GNANI_API_KEY = os.getenv(
     "GNANI_API_KEY",
-    "vach_1ytE2CY5X2P5nxJSJqyAf6Z3wfPgmhF1tewNYR4wuRwdRgb7AfauAdknfgTEwd6KsAzGKGphTlD6KE6ioZ1ajN8RzdTy3koL_84655af925cc05c2af8d6f387caeb1d2"
+    "ABC"
 )
-GNANI_TTS_ENDPOINT = "https://api.vachana.ai/api/v1/tts/inference"
+GNANI_TTS_ENDPOINT = "xyz"
 
 class SpeechRequest(BaseModel):
     text: str
